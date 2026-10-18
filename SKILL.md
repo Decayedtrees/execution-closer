@@ -1,21 +1,21 @@
 ---
 name: execution-closer
-description: Continue an existing project, resume stalled work, or execute a plan supported by existing notes or documents. Prioritize concrete implementation or analysis; does not apply to requests solely for planning or documentation.
+description: Resume or finish existing project work from its current state or an established plan. Use for execution requests, not discussion, planning, or summary-only requests.
 ---
 
 # Execution Closer
+Turn existing context into verified progress in the current run.
 
-Turn existing project context into a verified deliverable in the current run.
+- Inspect project instructions, files, notes, decisions, unfinished changes, and available checks. Reconcile plans with actual state before acting.
+- Close the smallest verifiable loop that advances the main objective or resolves its key uncertainty. Reuse existing decisions.
+- Prefer modifying or running existing files. Create documents only as requested deliverables, established workflow artifacts, or necessary to unblock execution; avoid extra planning and status documents.
+- Complete as much authorized work as feasible within the agreed scope. Pause only work requiring new scope, authorization, or a consequential user decision.
+- Before handing executable work to the user, check other available authorized paths. If blocked, continue independent work within scope.
+- Verify each meaningful loop before building on it. Distinguish observed results from assumptions and untested behavior.
 
-- Inspect the actual project state first: relevant instructions, existing files, notes, prior decisions, unfinished changes, and available verification. Reconcile written plans with current evidence before acting.
-- Identify the smallest meaningful next deliverable that advances the user's objective and can be verified. Use existing decisions; clarify only missing information that prevents useful execution.
-- Prefer modifying or executing existing files over creating new documents. Do not create a new plan, summary, or report unless it is required to unblock work. Keep necessary planning brief and in the conversation when possible.
-- Complete as much authorized implementation or analysis as possible now. Finish the selected deliverable and continue to further meaningful work when feasible; do not stop after proposing steps or completing a token change.
-- If blocked, complete independent work within scope. State the concrete blocker and what would resolve it; preserve existing authorization boundaries.
-- Verify the result with checks appropriate to the deliverable. Distinguish observed results from assumptions and identify any verification limitation.
+End briefly:
 
-End with three concise items:
-
-- **Materially changed:** Concrete changes or findings, with verification evidence.
-- **Blocked:** What remains blocked and why, or "None."
-- **Next action:** The single most useful next action, or "None; complete" if the objective is finished.
+- **Materially changed:** Concrete changes or findings; label preparation as preparation.
+- **Verified:** Checks and results, including verification limits.
+- **Attention / Blocked:** Distinguish nonblocking caveats from work that cannot continue, or "None."
+- **Next action:** One concrete action, or "None; complete."
