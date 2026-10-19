@@ -32,6 +32,15 @@ The acceptance criteria and unfinished implementation are already in the repo.
 
 Codex can also select it from its description when a request asks to resume or finish existing work. Automatic selection is host/model dependent; use explicit invocation when desired. See the [official skill documentation](https://learn.chatgpt.com/docs/build-skills).
 
+## Compatibility
+
+Execution Closer follows the open Agent Skills `SKILL.md` format. Its instructions contain no Codex-specific tools, hooks, or runtime dependencies.
+
+- **Currently tested:** Codex.
+- **Format-compatible, not tested here:** [Claude Code](https://code.claude.com/docs/en/skills) and other agents implementing the Agent Skills format.
+
+Installation paths and automatic skill invocation may vary by host. Equivalent behavior across hosts has not been verified.
+
 ## Before / after
 
 Illustrative, not a measured comparison:
