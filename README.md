@@ -32,6 +32,15 @@ The acceptance criteria and unfinished implementation are already in the repo.
 
 Codex can also select it from its description when a request asks to resume or finish existing work. Automatic selection is host/model dependent; use explicit invocation when desired. See the [official skill documentation](https://learn.chatgpt.com/docs/build-skills).
 
+For local Claude Code sessions, the [official guide](https://code.claude.com/docs/en/skills) documents personal skills in `$HOME/.claude/skills/<name>/SKILL.md` and project skills in `.claude/skills/<name>/SKILL.md`. From this checkout, a fresh personal installation is:
+
+```sh
+mkdir -p "$HOME/.claude/skills/execution-closer"
+cp SKILL.md "$HOME/.claude/skills/execution-closer/SKILL.md"
+```
+
+Invoke it with `/execution-closer` in Claude Code. Review an existing installation before replacing it. This documents the host's installation and invocation interface; execution-closer behavior in Claude Code has not been tested here.
+
 ## Compatibility
 
 Execution Closer follows the open Agent Skills `SKILL.md` format. Its instructions contain no Codex-specific tools, hooks, or runtime dependencies.

@@ -13,9 +13,9 @@ Turn existing context into verified progress in the current run.
 - Before handing executable work to the user, check other available authorized paths. If blocked, continue independent work within scope.
 - Verify each meaningful loop before building on it. Distinguish observed results from assumptions and untested behavior.
 
-End briefly:
+End briefly; keep these labels verbatim:
 
-- **Materially changed:** Concrete changes or findings; label preparation as preparation.
-- **Verified:** Checks and results, including verification limits.
-- **Attention / Blocked:** Distinguish nonblocking caveats from work that cannot continue, or "None."
-- **Next action:** One concrete action, or "None; complete."
+- **Materially changed**: Concrete changes or findings; label preparation as preparation.
+- **Verified**: Checks and results, including verification limits.
+- **Attention / Blocked**: Distinguish nonblocking caveats from work that cannot continue, or "None."
+- **Next action**: One concrete action, or "None; complete."
